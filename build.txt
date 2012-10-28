@@ -1,0 +1,12 @@
+sencha create jsb -a http://127.0.0.1/gloss/index.html -p app.jsb3
+
+
+sencha build -p app.jsb3 -d .
+
+
+jsTool min
+
+
+
+<script type="text/javascript" src="extjs/ext.js"></script>
+<script type="text/javascript" src="app-all.js"></script>
